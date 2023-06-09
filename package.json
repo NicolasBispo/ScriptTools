@@ -1,0 +1,19 @@
+{
+  "name": "scripttools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "coletar": "node ./Scripts/ColetarAldeiasBarbaras.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg": "^5.8.1",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^20.5.0",
+    "readline-sync": "^1.4.10"
+  }
+}
